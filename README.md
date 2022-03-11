@@ -1,3 +1,3 @@
 # kolomolo Python task
 
-_ Basic Knowledge Questions: _
+*Basic Knowledge Questions:*
