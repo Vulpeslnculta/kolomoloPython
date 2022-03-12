@@ -1,6 +1,9 @@
 # kolomolo Python task
 
+
 *Basic Knowledge Questions:*
+ 
+ 
   > What is \_\_main__.py used for?
 ##### We should use \_\_main__.py because it helps with maintaining clarity of code by having entry point at one line, and also 
 ##### makes possible for python to execute code more clearly 
@@ -37,8 +40,11 @@
 ##### The 'with' statement helps with clearer syntax (for example, by using that statement we don't have to worry about writing file.close() at the end of code, it is done
 ##### automaticly), and also it helps with Exeption Handling according to this answer on StackOverflow: https://stackoverflow.com/a/713814
 
-* Problem Solving *
+
+*Problem Solving*
+
 
   > Fixed code is added to this repository
 
-* Create something whilst learning something new *
+
+*Create something whilst learning something new*
