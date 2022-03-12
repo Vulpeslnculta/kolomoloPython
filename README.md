@@ -24,4 +24,21 @@
 ##### According to this question on TutorialsTeacher :  https://www.tutorialsteacher.com/python/public-private-protected-modifiers
 
   > What Python feature would you use to add some functionalities to an existing function without interfering into its code?
-##### 
+##### The most obvious way is to use inner function just by indenting it into existing function, in this way we aren't modyfying existing code, just adding a new one.
+
+  > How is @staticmethod different from @classmethod?
+##### Most notable diffrence is that a static method doesn't require specific parameters where class method takes cls as first parameter,
+##### second diffrence is that a static method cannot access nor modify class state, where class method have no problem with doing so.
+##### Another difference that emerge from second one, static methods 'know' nothing about class state, they just work with given parameters, where class method is the opposite,
+##### it takes class as parameter.
+
+  > What is the advantage of using with keyword when reading/writing a file in Python?
+
+##### The 'with' statement helps with clearer syntax (for example, by using that statement we don't have to worry about writing file.close() at the end of code, it is done
+##### automaticly), and also it helps with Exeption Handling according to this answer on StackOverflow: https://stackoverflow.com/a/713814
+
+* Problem Solving *
+
+  > Fixed code is added to this repository
+
+* Create something whilst learning something new *
