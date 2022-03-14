@@ -35,7 +35,7 @@ class Person:
 def main():
     # Added a global statement to remove error from line 50
     global thread
-    threads =[]
+    threads = []
     for p in people:
         #  I had to change arrangement of variables
         x = Person(p["first_name"], p["last_name"], p["age"])
@@ -43,11 +43,10 @@ def main():
 
     for thread in threads:
         thread.start()
-        #  Added two simple lines that will add a new line for each thread, and helps with timing output
-        thread.join()
-        print(' ', end='\n')
-    #  I've added simple statement to wait after all threads have ended
+        #  Here I've timed whole thing, now it's around 1 second
+        thread.join(0.01)
     thread.join()
+    #  I've added simple statement to wait after all threads have ended by indent
     print(f"Number of people created: {Person.people_count}")
 
     return
